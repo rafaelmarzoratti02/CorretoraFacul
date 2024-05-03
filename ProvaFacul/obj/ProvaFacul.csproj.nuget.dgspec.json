@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafael.marzoratti\\source\\repos\\ProvaFacul\\ProvaFacul\\ProvaFacul.csproj": {}
+    "C:\\Users\\rafael.marzoratti\\Documents\\Estudos\\ProvaFacul\\ProvaFacul\\ProvaFacul.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafael.marzoratti\\source\\repos\\ProvaFacul\\ProvaFacul\\ProvaFacul.csproj": {
+    "C:\\Users\\rafael.marzoratti\\Documents\\Estudos\\ProvaFacul\\ProvaFacul\\ProvaFacul.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafael.marzoratti\\source\\repos\\ProvaFacul\\ProvaFacul\\ProvaFacul.csproj",
+        "projectUniqueName": "C:\\Users\\rafael.marzoratti\\Documents\\Estudos\\ProvaFacul\\ProvaFacul\\ProvaFacul.csproj",
         "projectName": "ProvaFacul",
-        "projectPath": "C:\\Users\\rafael.marzoratti\\source\\repos\\ProvaFacul\\ProvaFacul\\ProvaFacul.csproj",
+        "projectPath": "C:\\Users\\rafael.marzoratti\\Documents\\Estudos\\ProvaFacul\\ProvaFacul\\ProvaFacul.csproj",
         "packagesPath": "C:\\Users\\rafael.marzoratti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafael.marzoratti\\source\\repos\\ProvaFacul\\ProvaFacul\\obj\\",
+        "outputPath": "C:\\Users\\rafael.marzoratti\\Documents\\Estudos\\ProvaFacul\\ProvaFacul\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rafael.marzoratti\\AppData\\Roaming\\NuGet\\NuGet.Config",
