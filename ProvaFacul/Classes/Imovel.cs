@@ -11,6 +11,19 @@ namespace ProvaFacul.Classes
         public int cod { get; set; }
         public float valor { get; set; }
         public Endereco endereco { get; set; }
-        public int areaTotal{ get; set; }
+        public int areaTotal { get; set; }
+
+
+
+        public Imovel(int cod, float valor, Endereco endereco, int areaTotal)
+        {
+            this.cod = cod;
+            this.valor = valor;
+            this.endereco = endereco;
+            this.areaTotal = areaTotal;
+        }
+
+   
+
     }
 }

@@ -15,6 +15,5 @@ namespace ProvaFacul.Classes
         public string cidade { get; set; }
         public string estado { get; set; }
 
-
     }
 }
