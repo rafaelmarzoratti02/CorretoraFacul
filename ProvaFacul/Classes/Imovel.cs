@@ -29,7 +29,7 @@ namespace ProvaFacul.Classes
             Console.WriteLine("------------------------");
             Console.WriteLine("Codígo: " + this.cod);
             Console.WriteLine("Valor: " + this.valor);
-            Console.WriteLine("Endereco: ");
+            this.endereco.ExibirEndereco();
             Console.WriteLine("Area Total: " + this.areaTotal);
 
         }
