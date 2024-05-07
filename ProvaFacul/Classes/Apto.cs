@@ -6,26 +6,29 @@ using System.Threading.Tasks;
 
 namespace ProvaFacul.Classes
 {
-    internal class Terreno : Imovel
+    internal class Apto: Imovel
     {
-        public string tipo { get; set; }
 
-        public Terreno(int cod, float valor, Endereco endereco, int areaTotal, string tipo) : base(cod, valor, endereco, areaTotal)
+        public float areaPrivativa { get; set; }
+
+
+
+        public Apto(int cod, float valor, Endereco endereco, int areaTotal, float areaPrivativa) : base(cod, valor, endereco, areaTotal)
         {
-            this.tipo = tipo;
+            this.areaPrivativa = areaPrivativa;
         }
 
 
         public override void ExibirDetalhes()
         {
             base.ExibirDetalhes();
-            Console.WriteLine($"Tipo:{this.tipo} ");
         }
 
         public override float CalcularIptu()
         {
             return base.CalcularIptu();
         }
+
 
     }
 }

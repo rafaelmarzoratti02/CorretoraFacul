@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProvaFacul.Classes
 {
-    internal class Imovel
+    internal abstract class Imovel
     {
         public int cod { get; set; }
         public float valor { get; set; }
@@ -23,7 +23,20 @@ namespace ProvaFacul.Classes
             this.areaTotal = areaTotal;
         }
 
-   
+        virtual public void ExibirDetalhes()
+        {
+            Console.WriteLine("------------------------");
+            Console.WriteLine("Co´digo: " + this.cod);
+            Console.WriteLine("Valor: " + this.valor);
+            Console.WriteLine("Endereco: ");
+            Console.WriteLine("Area Total: " + this.areaTotal);
+
+        }
+
+        virtual public float CalcularIptu()
+        {
+            return 1;
+        }
 
     }
 }
