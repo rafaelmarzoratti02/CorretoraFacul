@@ -10,7 +10,7 @@ namespace ProvaFacul.Classes
     {
         public string tipo { get; set; }
 
-        public Terreno(int cod, float valor, Endereco endereco, int areaTotal, string tipo) : base(cod, valor, endereco, areaTotal)
+        public Terreno( float valor, Endereco endereco, int areaTotal, string tipo) : base( valor, endereco, areaTotal)
         {
             this.tipo = tipo;
         }

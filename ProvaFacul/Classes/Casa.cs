@@ -11,7 +11,7 @@ namespace ProvaFacul.Classes
 
         public float areaConstruida { get; set; }
 
-        public Casa(int cod, float valor, Endereco endereco, int areaTotal, float areaConstuida) : base(cod, valor, endereco, areaTotal)
+        public Casa(float valor, Endereco endereco, int areaTotal, float areaConstuida) : base(valor, endereco, areaTotal)
         {
             this.areaConstruida = areaConstuida;
         }
@@ -20,6 +20,7 @@ namespace ProvaFacul.Classes
         public override void ExibirDetalhes()
         {
             base.ExibirDetalhes();
+            Console.WriteLine($"Área construída: {this.areaConstruida}");
         }
 
         public override float CalcularIptu()

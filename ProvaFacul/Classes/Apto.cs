@@ -13,7 +13,7 @@ namespace ProvaFacul.Classes
 
 
 
-        public Apto(int cod, float valor, Endereco endereco, int areaTotal, float areaPrivativa) : base(cod, valor, endereco, areaTotal)
+        public Apto(float valor, Endereco endereco, int areaTotal, float areaPrivativa) : base( valor, endereco, areaTotal)
         {
             this.areaPrivativa = areaPrivativa;
         }

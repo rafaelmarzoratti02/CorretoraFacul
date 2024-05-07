@@ -9,15 +9,16 @@ namespace ProvaFacul.Classes
     internal abstract class Imovel
     {
         public int cod { get; set; }
+        static int _cod = 20240001;
         public float valor { get; set; }
         public Endereco endereco { get; set; }
         public int areaTotal { get; set; }
 
 
 
-        public Imovel(int cod, float valor, Endereco endereco, int areaTotal)
+        public Imovel(float valor, Endereco endereco, int areaTotal)
         {
-            this.cod = cod;
+            this.cod = geraCod();
             this.valor = valor;
             this.endereco = endereco;
             this.areaTotal = areaTotal;
@@ -26,11 +27,16 @@ namespace ProvaFacul.Classes
         virtual public void ExibirDetalhes()
         {
             Console.WriteLine("------------------------");
-            Console.WriteLine("Co´digo: " + this.cod);
+            Console.WriteLine("Codígo: " + this.cod);
             Console.WriteLine("Valor: " + this.valor);
             Console.WriteLine("Endereco: ");
             Console.WriteLine("Area Total: " + this.areaTotal);
 
+        }
+
+        public int geraCod()
+        {
+            return _cod++;
         }
 
         virtual public float CalcularIptu()
